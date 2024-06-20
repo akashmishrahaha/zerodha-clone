@@ -54,6 +54,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  overflow: hidden;
 }
 
 .logobox {
@@ -96,6 +97,7 @@ nav {
   top: 100px;
   right: 40px;
   position: fixed;
+  overflow: auto;
 }
 
 .showbox {
@@ -826,6 +828,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .showbox.visible {
+    overflow: scroll;
+    max-height: 80vh;
+  }
+}
+
 @media (max-width: 800px) {
   .showbox {
     width: 60%;
@@ -850,6 +859,10 @@ footer {
   }
 }
 @media screen and (max-width: 415px) {
+  .showbox {
+    /* position: absolute; */
+    padding: 2rem;
+  }
   .navitems {
     gap: 0.5rem;
   }
@@ -865,6 +878,7 @@ footer {
 @media screen and (max-width: 375px) {
   .showbox {
     width: 80%;
+    position: relative;
   }
   .varsity-img img {
     width: 90%;
