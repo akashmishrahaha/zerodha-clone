@@ -561,7 +561,7 @@ img {
 }
 
 footer {
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(180, 117, 117);
 }
 
 .footer-container {
@@ -831,7 +831,7 @@ footer {
 @media screen and (max-width: 800px) {
   .showbox.visible {
     overflow: scroll;
-    max-height: 80vh;
+    max-height: 70vh;
   }
 }
 
