@@ -1,4 +1,6 @@
-![Screenshot from 2024-06-20 17-04-44](https://github.com/akashmishrahaha/zerodha-clone/assets/154694738/f4c4926e-a078-4577-9aa0-57f956ba421f)# Zerodha Clone
+# Zerodha Clone
+
+![Screenshot from 2024-06-20 17-04-44](https://github.com/akashmishrahaha/zerodha-clone/assets/154694738/f4c4926e-a078-4577-9aa0-57f956ba421f)
 
 ### About
 This is a clone of [zerodha website](https://zerodha.com/).The tech stack used to make this is quite basic, just HTML and CSS.
