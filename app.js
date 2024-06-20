@@ -13,9 +13,18 @@
 //     showbox.style.top = "auto";
 //   }
 // }
+// function toggleShowBox() {
+//   console.log("clicked");
+//   var showbox = document.getElementById("showbox");
+//   showbox.classList.toggle("visible");
+// }
 
 function toggleShowBox() {
   console.log("clicked");
   var showbox = document.getElementById("showbox");
-  showbox.classList.toggle("visible");
+  if (showbox) {
+    showbox.classList.toggle("visible");
+  } else {
+    console.error("Element with ID 'showbox' not found.");
+  }
 }
